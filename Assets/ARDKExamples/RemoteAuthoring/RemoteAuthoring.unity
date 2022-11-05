@@ -686,55 +686,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _manifests:
-  - LocationName: Relic
-    AuthoredAnchors:
-    - Name: Default
-      Payload: ChYI6djC/O3i1qbaARCF9c+/i5+dkpgBGOLQ8pSjlfoCKkUKFQj9w6TRpeTXpV8QvZ2Ms/Xz46aTARInCg8Ngi/LPxU6T92/HVSmVEESFA3aXkk8FbAJUT8dLnIJvCW4DBI/HQAAgD8qRQoVCKmkiJnMlragGxCb24Pl3LvB0tQBEicKDw3clYS+FUpgv78d7lw/QRIUDePRszsVPY9GPx3AKOu7JeMtIj8dAACAPypFChUIxJiXirvm8aTJARCr752K466zxGkSJwoPDQ1lO8AV7DTpPx0XTaJAEhQNfCw3uhXUpXw/HVj1x7sl0A8Wvh0AAIA/KkQKFAiknsDlroaMpzMQmPXX+JDv28YbEicKDw10joI+Fc7l3D8dDs+uQBIUDWRBsLwVIn1Uvx2yW0w6JUblFj8dAACAPw==
-  - LocationName: Russalka
-    AuthoredAnchors:
-    - Name: Default
-      Payload: ChUInJ2hg6Shn6ViELqHru31kPWyyAEYgYvI3sWS+gIqNgoVCKmMz52xmuSj0QEQi6Wt77GBiKBrEhgKDw0lBsE+FUoMQr8doBqPvxIFJQAAgD8dAACAPw==
-  - LocationName: Three Fish
-    AuthoredAnchors:
-    - Name: BetweenFish1
-      Payload: ChQIrYyc+6C0m6YfELqlkeHr9LfabBiWj4b2xJL6Aio2ChUIhNWmmazFtaOWARCivcGw/v7c2F8SGAoPDeXQQr8Vj8KlPx3+1AhAEgUlAACAPx0AAIA/
-    - Name: BetweenFish2
-      Payload: ChUI3+P5nuzP1qBgELHPivqsjLKi/gEY7ZnUmMWS+gIqNgoVCITVppmsxbWjlgEQor3BsP7+3NhfEhgKDw1QjZe9FR1apD8dary0PxIFJQAAgD8dAACAPw==
-  - LocationName: Memorial
+  - LocationName: Judy & Bob Huret Steps
     AuthoredAnchors:
     - Name: Anchor A
-      Payload: ChUI+vnn0fOa3KWcARCqsbeY54za3WgYsq+F0t6X+wIqNgoVCLWn6dnZlOuikgEQqffh0sPo05UsEhgKDw0MAkvBFVK4Xj8d3STmQBIFJQAAgD8dAACAPypEChQIsajpvKzVy6NSEKHVpZepmMPJRRInCg8N7I87wRUwFEk/HWPH4EASFA3SeUw7FST6u7sd/MB5OiWR/n8/HQAAgD8=
-    - Name: Anchor B
-      Payload: ChQIyr2op5yU5aAzEJbtwdvX/a6Raxj2z4Cw35f7Aio2ChUItafp2dmU66KSARCp9+HSw+jTlSwSGAoPDZqZWcEVxWXmPx1VmxNBEgUlAACAPx0AAIA/KkQKFAixqOm8rNXLo1IQodWll6mYw8lFEicKDw0gjkrBFay62T8dutgQQRIUDdJ5TDsVJPq7ux38wHk6JZH+fz8dAACAPw==
+      Payload: ChUIoIPaoa3ijqVMELif75nlzIHVsQEYycuXqvCX+wIqOwoVCOe2neH2ysCj3AEQpI/htcTNi5gREh0KDw1GHlNBFfymVj8du+kXwRIKFWDinj4lnVxzPx0AAIA/KjwKFgjJ7M+IufCKoK4BEIK79t+T46OKrAESHQoPDbgqpkAV3Pp4vh2M1B1BEgoVDgcOvyUZ/VQ/HQAAgD8qOwoVCKO86q31t9inQxCg/5zR1NLrlZ4BEh0KDw0ujp1AFaZykT4deDr4QBIKFVtAAb4l2PN9Px0AAIA/KjsKFQjF5Ki5oauSobcBEIv7lean57GibxIdCg8NKdRdQBVoJD4+HRwUCEESChXn2Vo/JfTQBD8dAACAPw==
   _anchoredContent:
-  - AnchorName: Default-Relic
+  - AnchorName: Anchor A-Judy & Bob Huret Steps
     ManifestID: 0
-    AnchorDataIdentifier: Default
-    Content: {fileID: 4157707192060163750, guid: 50f45542a65204d93a723724792608ca,
-      type: 3}
-  - AnchorName: Default-Russalka
-    ManifestID: 1
-    AnchorDataIdentifier: Default
-    Content: {fileID: 4157707192060163750, guid: 50f45542a65204d93a723724792608ca,
-      type: 3}
-  - AnchorName: BetweenFish1-Three Fish
-    ManifestID: 2
-    AnchorDataIdentifier: BetweenFish1
-    Content: {fileID: 4157707192060163750, guid: 55affbfb5722e40a98877eaf25c3342e,
-      type: 3}
-  - AnchorName: BetweenFish2-Three Fish
-    ManifestID: 2
-    AnchorDataIdentifier: BetweenFish2
-    Content: {fileID: 4157707192060163750, guid: 50f45542a65204d93a723724792608ca,
-      type: 3}
-  - AnchorName: Anchor A-Memorial
-    ManifestID: 3
     AnchorDataIdentifier: Anchor A
-    Content: {fileID: 1400524640639660988, guid: be8fc65b388bf4253a5ae4669c969df4,
-      type: 3}
-  - AnchorName: Anchor B-Memorial
-    ManifestID: 3
-    AnchorDataIdentifier: Anchor B
     Content: {fileID: 5509089906200858260, guid: 9817b0caa75394c948af78dd89acc364,
       type: 3}
 --- !u!4 &1829151718
