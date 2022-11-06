@@ -25,7 +25,7 @@ public class MusicGameManager : MonoBehaviour
         {
             Debug.Log("b");
          
-            if(currentNote >= 3) RewardObject.SetActive(true);
+            if(currentNote >= 5) RewardObject.SetActive(true);
            PlayerNotes[currentNote] = notePlayed;
             currentNote++;
 
