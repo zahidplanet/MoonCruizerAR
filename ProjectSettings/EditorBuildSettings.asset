@@ -6,8 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/ARDKExamples/RemoteAuthoring/RemoteAuthoring.unity
+    path: Assets/Scenes/RemoteAuthoring.unity
     guid: b42b611c6ac6c4128ae1090ed0ec3121
   m_configObjects:
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 57e4b3d8b156746e5b091f14918a5c68,
+      type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000,
       guid: f80aae349d70e49838a2828f48de916c, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 8b8ebef1d18a149e68db5b6eb94d749a,
+      type: 2}
