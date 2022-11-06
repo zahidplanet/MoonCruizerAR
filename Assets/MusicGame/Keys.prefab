@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 4661588735886327039}
   - component: {fileID: 4591413829352569450}
   - component: {fileID: 7046336836464117319}
-  - component: {fileID: 6522091005862506160}
   - component: {fileID: 3872881985903164870}
   - component: {fileID: 2667893767172107004}
   m_Layer: 0
@@ -30,9 +29,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1052993955442942803}
   m_LocalRotation: {x: -0, y: 0.22332214, z: -0, w: 0.9747447}
-  m_LocalPosition: {x: 5.788, y: 0, z: 8.735}
-  m_LocalScale: {x: 1, y: 0.34, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 5.27, y: 0, z: 8.76}
+  m_LocalScale: {x: 0.76, y: 0.2584, z: 0.76}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 8473675161841025240}
   m_RootOrder: 0
@@ -100,19 +99,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &6522091005862506160
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1052993955442942803}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &3872881985903164870
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -140,7 +126,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: a9e912ec8c5034e47abfa236803189a8, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.46
+  m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -148,7 +134,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 3.5
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
@@ -241,7 +227,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &29309821699474303
 Transform:
   m_ObjectHideFlags: 0
@@ -250,7 +236,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1204099553162929623}
   m_LocalRotation: {x: -0, y: 0.8227071, z: -0, w: 0.56846553}
-  m_LocalPosition: {x: 5.1888695, y: 0, z: 8.514868}
+  m_LocalPosition: {x: 5.1888695, y: 1.88, z: 8.514868}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -309,12 +295,12 @@ TextMesh:
   m_GameObject: {fileID: 1204099553162929623}
   m_Text: You Win
   m_OffsetZ: 0
-  m_CharacterSize: 1
+  m_CharacterSize: 0.05
   m_LineSpacing: 1
   m_Anchor: 0
   m_Alignment: 0
   m_TabSize: 4
-  m_FontSize: 0
+  m_FontSize: 495
   m_FontStyle: 0
   m_RichText: 1
   m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
@@ -333,7 +319,6 @@ GameObject:
   - component: {fileID: 1903515759881226176}
   - component: {fileID: 6493417862409215596}
   - component: {fileID: 2602463947844216424}
-  - component: {fileID: 2316980159341841403}
   - component: {fileID: 2277725052606844899}
   - component: {fileID: 869716048247498057}
   m_Layer: 0
@@ -352,8 +337,8 @@ Transform:
   m_GameObject: {fileID: 2139320183875783075}
   m_LocalRotation: {x: -0, y: 0.22332214, z: -0, w: 0.9747447}
   m_LocalPosition: {x: 4.546, y: 0, z: 7.288}
-  m_LocalScale: {x: 1, y: 0.34, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.76, y: 0.2584, z: 0.76}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 8473675161841025240}
   m_RootOrder: 2
@@ -421,19 +406,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &2316980159341841403
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2139320183875783075}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2277725052606844899
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -461,7 +433,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: e6271e16c29e50543b52260da047abcc, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.46
+  m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -469,7 +441,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 3.5
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
@@ -557,7 +529,6 @@ GameObject:
   - component: {fileID: 7811148941750942662}
   - component: {fileID: 4337169641188302181}
   - component: {fileID: 7758320743986492580}
-  - component: {fileID: 5121944559000336578}
   - component: {fileID: 6724249623748080829}
   - component: {fileID: 2094412497495835097}
   m_Layer: 0
@@ -575,9 +546,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2531833696130402768}
   m_LocalRotation: {x: -0, y: 0.22332214, z: -0, w: 0.9747447}
-  m_LocalPosition: {x: 4.32, y: 0, z: 3.35}
-  m_LocalScale: {x: 1, y: 0.34, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 4.32, y: 0.36, z: 3.35}
+  m_LocalScale: {x: 0.76, y: 0.2584, z: 0.76}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 8473675161841025240}
   m_RootOrder: 7
@@ -645,19 +616,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &5121944559000336578
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2531833696130402768}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &6724249623748080829
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -685,7 +643,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 5df6237102d070247ac5f59c45369a00, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.46
+  m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -693,7 +651,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 3.5
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
@@ -781,7 +739,6 @@ GameObject:
   - component: {fileID: 3848249396321793542}
   - component: {fileID: 6726729086118060436}
   - component: {fileID: 5108928001049034542}
-  - component: {fileID: 5901696276829308055}
   - component: {fileID: 4236640877510554006}
   - component: {fileID: 1850744203196958994}
   m_Layer: 0
@@ -800,8 +757,8 @@ Transform:
   m_GameObject: {fileID: 3341376185140962592}
   m_LocalRotation: {x: -0, y: 0.22332214, z: -0, w: 0.9747447}
   m_LocalPosition: {x: 2.95, y: 0, z: 3.99}
-  m_LocalScale: {x: 1, y: 0.34, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.76, y: 0.2584, z: 0.76}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 8473675161841025240}
   m_RootOrder: 6
@@ -869,19 +826,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &5901696276829308055
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3341376185140962592}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &4236640877510554006
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -909,7 +853,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 4d2614bedbdd64e42a787a79c10214de, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.46
+  m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -917,7 +861,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 3.5
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
@@ -1005,7 +949,6 @@ GameObject:
   - component: {fileID: 7832208503099550179}
   - component: {fileID: 9136178409248615899}
   - component: {fileID: 8019658056710960504}
-  - component: {fileID: 1580999906100889049}
   - component: {fileID: 8218338059106549024}
   - component: {fileID: 163722320667843081}
   m_Layer: 0
@@ -1023,9 +966,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3497621919331144191}
   m_LocalRotation: {x: -0, y: 0.22332214, z: -0, w: 0.9747447}
-  m_LocalPosition: {x: 5.838, y: 0, z: 6.714}
-  m_LocalScale: {x: 1, y: 0.34, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 5.838, y: 0.36, z: 6.714}
+  m_LocalScale: {x: 0.76, y: 0.2584, z: 0.76}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 8473675161841025240}
   m_RootOrder: 3
@@ -1093,19 +1036,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &1580999906100889049
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3497621919331144191}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &8218338059106549024
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1133,7 +1063,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: b92ec7b85e08ee14faeebf3f32fce42c, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.46
+  m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1141,7 +1071,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 3.5
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
@@ -1270,7 +1200,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e732700bd88d7343973e7a1d9f2c5fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GameNotes: 00000000010000000200000003000000040000000500000004000000050000000600000004000000030000000500000002000000010000000100000000000000
+  GameNotes: 00000000010000000000000002000000000000000300000004000000050000000600000004000000030000000500000002000000010000000100000000000000
   PlayerNotes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   currentNote: 0
   notePlayed: 10
@@ -1287,7 +1217,6 @@ GameObject:
   - component: {fileID: 1811705951128156983}
   - component: {fileID: 5075352779671179934}
   - component: {fileID: 5498533830257459231}
-  - component: {fileID: 7284134386564308223}
   - component: {fileID: 1590856786125657908}
   - component: {fileID: 3442996271473505214}
   m_Layer: 0
@@ -1306,8 +1235,8 @@ Transform:
   m_GameObject: {fileID: 6095251857494720394}
   m_LocalRotation: {x: -0, y: 0.22332214, z: -0, w: 0.9747447}
   m_LocalPosition: {x: 3.696, y: 0, z: 5.53}
-  m_LocalScale: {x: 1, y: 0.34, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.76, y: 0.2584, z: 0.76}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 8473675161841025240}
   m_RootOrder: 4
@@ -1375,19 +1304,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &7284134386564308223
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6095251857494720394}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1590856786125657908
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1415,7 +1331,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 48a1b58841f08e346bddf5b9698612b9, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.46
+  m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1423,7 +1339,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 3.5
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
@@ -1511,7 +1427,6 @@ GameObject:
   - component: {fileID: 7573884476731288793}
   - component: {fileID: 8160818440859674348}
   - component: {fileID: 7275555173665784193}
-  - component: {fileID: 9208722683001683950}
   - component: {fileID: 6376544593679797697}
   - component: {fileID: 2914032055132420248}
   m_Layer: 0
@@ -1529,9 +1444,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8388432290160785591}
   m_LocalRotation: {x: -0, y: 0.22332214, z: -0, w: 0.9747447}
-  m_LocalPosition: {x: 4.82, y: 0, z: 4.89}
-  m_LocalScale: {x: 1, y: 0.34, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 4.82, y: 0.36, z: 4.89}
+  m_LocalScale: {x: 0.76, y: 0.2584, z: 0.76}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 8473675161841025240}
   m_RootOrder: 5
@@ -1599,19 +1514,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &9208722683001683950
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8388432290160785591}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &6376544593679797697
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1639,7 +1541,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 5e850ff1b116c7d42a8d471624751944, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.46
+  m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1647,7 +1549,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 3.5
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
@@ -1735,7 +1637,6 @@ GameObject:
   - component: {fileID: 273604864792692284}
   - component: {fileID: 6236267888716168134}
   - component: {fileID: 7234149223218171573}
-  - component: {fileID: 7346145674206909410}
   - component: {fileID: 8189028642263326030}
   - component: {fileID: 6782269462668349702}
   m_Layer: 0
@@ -1753,9 +1654,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8894434615367136437}
   m_LocalRotation: {x: -0, y: 0.22332214, z: -0, w: 0.9747447}
-  m_LocalPosition: {x: 6.73, y: 0, z: 8.28}
-  m_LocalScale: {x: 1, y: 0.34, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 6.73, y: 0.36, z: 8.28}
+  m_LocalScale: {x: 0.76, y: 0.2584, z: 0.76}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 8473675161841025240}
   m_RootOrder: 1
@@ -1823,19 +1724,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &7346145674206909410
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8894434615367136437}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &8189028642263326030
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1863,7 +1751,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 98f0913b7e9233440bb82bc7d6903379, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.46
+  m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1871,7 +1759,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 3.5
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0

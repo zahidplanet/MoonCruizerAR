@@ -20,14 +20,19 @@ public class MusicGameManager : MonoBehaviour
     public void PlayNote(int notePlayed )
     {
 
-        Debug.Log("a");
+        
         if(notePlayed == GameNotes[currentNote])
         {
-            Debug.Log("b");
-         
-            if(currentNote >= 5) RewardObject.SetActive(true);
+            Debug.Log(currentNote);
+
+            if (currentNote >= 4)
+            {
+                RewardObject.SetActive(true);
+                Debug.Log("Bazinga!");
+            }
+
            PlayerNotes[currentNote] = notePlayed;
-            currentNote++;
+           currentNote++;
 
         }
         else

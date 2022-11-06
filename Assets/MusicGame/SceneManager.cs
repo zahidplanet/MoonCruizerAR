@@ -60,7 +60,7 @@ public class SceneManager : MonoBehaviour
         //Add velocity to our Ball, here we're telling the game to put Force behind the Ball in the direction Forward from our Camera (so, straight ahead)
         Rigidbody rigbod = newBall.GetComponent<Rigidbody>();
         rigbod.velocity = new Vector3(0f, 0f, 0f);
-        float force = 300.0f;
+        float force = 500.0f;
         rigbod.AddForce(_mainCamera.transform.forward * force);
     }
 }
